@@ -30,7 +30,7 @@ public class ObstacleSpawner : MonoBehaviour
                 transform.position,
                 Quaternion.identity);
 
-            // Garante que o obstaculo fica na cena atual
+
             UnityEngine.SceneManagement.SceneManager.MoveGameObjectToScene(
                 obs,
                 gameObject.scene);
